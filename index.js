@@ -20,7 +20,8 @@ Do the following:
    HINT: no function required
 */
 
-
+const votingAge = 18;
+console.log(votingAge);
 
 /*
 Task 1b - Values
@@ -33,9 +34,12 @@ Do the following:
    HINT: no function required
 */
 
+let name1 = 'Iliya';
+let name2 = 'Ali';
 
+if (name1 != name2) name1 = name2
 
-
+console.log(name1)
 
 /*
 Task 1c - Convert Strings to Numbers
@@ -48,8 +52,9 @@ Do the following:
    HINT: look up the Number method
 */
 
-
-
+let year = '1999'
+let yearInt = parseInt(year)
+console.log(yearInt)
 
 /*
 Task 1d - Multiply
@@ -60,11 +65,8 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
-}
-
-
+const multiply = (a, b) => a * b
+console.log(multiply(2, 3))
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -76,11 +78,8 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
-}
-
-
+const dogYears = age => age * 7
+console.log(dogYears(5.4))
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
